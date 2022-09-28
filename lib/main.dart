@@ -18,7 +18,6 @@ class MyApp extends StatelessWidget {
 
 class Home extends StatefulWidget {
   const Home({super.key});
-
   @override
   State<Home> createState() => _HomeState();
 }
@@ -61,7 +60,7 @@ class _HomeState extends State<Home> {
                   backgroundColor: Color.fromARGB(255, 244, 189, 207)),
               decoration: InputDecoration(
                 label: Text(
-                  "Laptop , Mobiles , ...",
+                  "Solve the password problem",
                   style: TextStyle(color: Color.fromARGB(255, 198, 125, 211)),
                 ),
                 prefixIcon: Icon(
