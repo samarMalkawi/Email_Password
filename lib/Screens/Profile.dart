@@ -95,7 +95,7 @@ class _ProfileState extends State<Profile> {
             child: Center(
               child: Container(
                 width: 500,
-                height: 1000,
+                height: 800,
                 decoration:
                     BoxDecoration(color: Color.fromARGB(255, 230, 179, 239)),
                 child: Column(
